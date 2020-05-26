@@ -73,6 +73,7 @@ CPPSRC = $(CHIBIOS)/os/various/ch.cpp \
           main.cpp \
           $(CHIBIOS)/os/contrib/Adafruit_GFX.cpp \
           $(CHIBIOS)/os/contrib/Adafruit_HX8340B.cpp \
+          $(CHIBIOS)/os/contrib/MessageManagement.cpp \
           $(CHIBIOS)/os/contrib/Print.cpp
 
 # C sources to be compiled in ARM mode regardless of the global setting.
