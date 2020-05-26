@@ -160,8 +160,8 @@
 #define GPIO53_PORT     &IOPORT1
 
 // ----- GPIO - Onboard LED -------
-#define ONBOARD_LED_PORT        GPIO16_PORT
-#define ONBOARD_LED_PAD         GPIO16_PAD
+#define ONBOARD_LED_PORT        GPIO47_PORT
+#define ONBOARD_LED_PAD         GPIO47_PAD
 
 // *****************************************************************************
 //                          Timer (ARM Side)

@@ -7,9 +7,9 @@ static msg_t Thread1(void *p) {
   chRegSetThreadName("blinker");
   while (TRUE) {
     palClearPad(ONBOARD_LED_PORT, ONBOARD_LED_PAD);
-    chThdSleepMilliseconds(100);
+    chThdSleepSeconds(1);
     palSetPad(ONBOARD_LED_PORT, ONBOARD_LED_PAD);
-    chThdSleepMilliseconds(900);
+    chThdSleepSeconds(1);
   }
   return 0;
 }
